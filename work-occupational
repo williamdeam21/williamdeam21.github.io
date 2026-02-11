@@ -7,7 +7,7 @@
 <html lang="en-US">
     <head>
         <meta charset="utf-8">
-        <title>Personal Portfolio</title> 
+        <title>Work/Occupational</title> 
         
         <meta name="William Deam" content="Resume"> <meta name="keywords" content="Personal Portfolio">
     </head>
@@ -16,17 +16,12 @@
             <img src="images/image.jpg" alt="PP Logo" width="500px">
         </header>
         <h1> William Deam</h1>
-        <h2>Personal Portfolio</h2>
+        <h2>Work/Occupational</h2>
         <p>This site is about my work experience</p>
-        <p>My hobbies are <strong>weightlifting and video games</strong>.</p>
         <blockquote>
-            My Work Experience, Education, and Research Interest
+            My Work Experience
         </blockquote>
-        <ol>
-            <li>Programming</li>
-            <li>Operating Systems</li>
-            <li>Hardware</li>
-        </ol>
+       
         <a href="https://ww.siu.edu"<www.siu.edu</a>
         <a href="emailto:owner@pp.com"<owner@williamdeam21.github.io</a> </address>
         <pre>
