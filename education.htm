@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 
 <!-- @author william deam, Southern Illinois University, Developed 1/23/2026, Tested 1/23/2026
 
@@ -6,14 +6,25 @@
 <html lang="en-US">
     <head>
         <meta charset="utf-8">
-        <title>Education</title> 
+        <title>Education</title>
+        <!--Here's the links for the CSS pages, and the javascript below it--> 
         <link rel="stylesheet" href="style/main.css">
+        <link rel="stylesheet" href="style/slicknav.css">
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script src="js/jquery.slicknav.min.js"></script> 
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $('#nav_menu').slicknav({prependTo:"#mobile_menu"});
+            });
+        </script>    
         <meta name="William Deam" content="Resume"> <meta name="keywords" content="Personal Portfolio">
     </head>
     <body>
+        <!--Here's the line of code for the mustang picture-->
         <header>
-            <div class="bluetouch"><img src="images/image.jpg" alt="PP Logo" width="500px"></div>
+            <div class="bluesomething"><img src="images/image.jpg" alt="PP Logo" width="500px"></div>
         </header>
+        <!--Here's the code for the navigation menu-->
         <nav id="mobile_menu"></nav>
         <nav id="nav_menu">
             <ul>
@@ -24,9 +35,10 @@
               <li><a href="contact.htm" class="lastitem">Contact</a></li>  
             </ul>
         </nav>
+        <!--Here's some of my education-->
         <h1> William Deam</h1>
         <h2>Education</h2>
-        <p>My hobbies are <strong>weightlifting and video games</strong>.</p>
+        
         <blockquote>
             Education, and Research Interest
         </blockquote>

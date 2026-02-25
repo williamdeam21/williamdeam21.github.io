@@ -7,13 +7,23 @@
     <head>
         <meta charset="utf-8">
         <title>Interests</title> 
+        <!--Here's the link for the CSS pages with the code for the javascript below it-->
         <link rel="stylesheet" href="style/main.css">
+        <link rel="stylesheet" href="style/slicknav.css">
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script src="js/jquery.slicknav.min.js"></script> 
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $('#nav_menu').slicknav({prependTo:"#mobile_menu"});
+            });
+        </script>    
         <meta name="William Deam" content="Interests"> <meta name="keywords" content="Work Experience, education, resume, William Deam">
     </head>
     <body>
         <header><h1>Interests</h1>
             
         </header>
+        <!--Here's the code for my navigation menu-->
         <nav id="mobile_menu"></nav>
         <nav id="nav_menu">
             <ul>
@@ -24,8 +34,7 @@
               <li><a href="contact.htm" class="lastitem">Contact</a></li>  
             </ul>
         </nav>
-        
-        <h2>This is about my interests</h2>
+        <!--My Education-->
         <main>
             <h2>Education</h2>
             <h2>1. SIU</h2>
@@ -38,10 +47,7 @@
             <p class ="first">2012</p>
         </aside>
         
-        <footer>
-        <p>This site is about my work experience</p>
-
-        </footer>
+        
         <img src="images/image.jpg"alt="PP Logo" width="100">
     </body>
 

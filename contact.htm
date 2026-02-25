@@ -7,13 +7,24 @@
     <head>
         <meta charset="utf-8">
         <title>Contacts</title> 
+        <!--Here's the code which links the different CSS pages, and the javascript-->
         <link rel="stylesheet" href="style/main.css">
+        <link rel="stylesheet" href="style/slicknav.css">
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script src="js/jquery.slicknav.min.js"></script> 
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $('#nav_menu').slicknav({prependTo:"#mobile_menu"});
+            });
+        </script>    
         <meta name="William Deam" content="Resume"> <meta name="keywords" content="Personal Portfolio">
     </head>
     <body>
         <header>
-            <div class="bluetouch"><img src="images/image.jpg" alt="PP Logo" width="500px"></div>
+            <!--Here's the code which displays the rounded image-->
+            <div class="bluesomething"><img src="images/image.jpg" alt="PP Logo" width="500px"></div>
         </header>
+        <!--Here's the code for the navigation menu-->
         <nav id="mobile_menu"></nav>
         <nav id="nav_menu">
             <ul>
@@ -24,8 +35,11 @@
               <li><a href="contact.htm" class="lastitem" class="current">Contact</a></li>  
             </ul>
         </nav>
+        <!--Here's my totally legit contact information-->
         <h1> William Deam</h1>
         <h2>Contacts</h2>
+        <h3>You can contact me at 618-###-####</h3>
+        <h4>Or at totallylegitemail@gmail.com</h4>
         
     </body>
 
