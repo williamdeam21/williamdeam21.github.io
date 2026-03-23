@@ -1,9 +1,25 @@
 /* @author: william deam */
 @media only screen and (max-width: 2024px) {
     #mobile_menu {display: none;}
+    th {
+        font-size: 1.6em;
+        padding-left: 10px 1.0417%;
+        padding-right: 10px;
+    }
+    td {
+         border: 1px solid black;
+    }
+    
 }
 @media only screen and (max-width: 959px) {
     #mobile_menu {display: none;}
+
+    th {
+        font-size: 1.4em;
+        padding-left: 10px 1.0417%;
+        padding-right: 10px;
+    }
+
 }
 @media only screen and (max-width: 767px) {
     #mobile_menu {display: block;}
@@ -14,6 +30,12 @@
     article h1, main h2, aside h2
     { font-size: 1em; }
     aside li { font-size: .875em; }
+
+     th {
+        font-size: 1em;
+        padding-left: 10px 1.0417%;
+        padding-right: 10px;
+    }
 }
 @media only screen and (max-width: 479px) {
     #mobile_menu {display: block;}
@@ -23,7 +45,13 @@
     p { font-size: 875em; }
     article h1, main h2, aside h2
     { font-size: 1em; }
-    aside li { font-size: .875em; }   
+    aside li { font-size: .875em; }
+    
+     th {
+        font-size: 1em;
+        padding-left: 10px 1.0417%;
+        padding-right: 10px;
+    }
 }
 
 /* the style for the body */
@@ -170,3 +198,21 @@ figcaption {
 img {
     position: static;
 }
+table {
+    border: 1px solid black;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding-top: 0.5em;
+}
+fieldset {
+     margin-top: 1em;
+    margin-bottom: 1em;
+    padding-top: 0.5em;
+}
+legend {
+    color: black;
+    font-weight: bold;
+    font-size: 1em;
+    margin-bottom: 0.5em;
+}
+
