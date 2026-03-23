@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<!-- @author william deam, Southern Illinois University, Developed 1/23/2026, Tested 1/23/2026
+
+-->
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <title>Personal Portfolio</title>
+        <!--Here's the code linking the CSS pages as well as the javascript-->
+        <link rel="stylesheet" href="style/main.css">
+        <link rel="stylesheet" href="style/slicknav.css">
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script src="js/jquery.slicknav.min.js"></script> 
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $('#nav_menu').slicknav({prependTo:"#mobile_menu"});
+            });
+        </script>    
+        <meta name="William Deam" content="Resume"> <meta name="keywords" content="Personal Portfolio">
+    </head>
+    <body>
+        <figcaption>William Deam Portfolio</figcaption>
+        <figure class="sports">
+            <img class="baseball" src="images/baseball.jpg">
+            <img class="golf" src="images/golf.jpg">
+        <header>
+            <!--This is the image-->
+            <div class="bluesomething"><img src="images/image.jpg" alt="PP Logo" width="500px"></div>
+            <!-- Audio Track -->
+            <audio controls autoplay loop hidden>
+                <source src="audio/breezy-afternoon.mp3" type="audio/mpeg">
+            </audio>
+        </header>
+        <!--Here is the nav menu for the website-->
+        <nav id="mobile_menu"></nav>
+        <nav id="nav_menu">
+            <ul>
+              <li><a href="index.htm" class="current">Home</a></li>
+              <li><a href="education.htm">Education</a></li>
+              <li><a href="interests.htm">Interests</a></li>
+              <li><a href="work-occupational.htm">Occupation</a></li>
+              <li><a href="contact.htm" class="lastitem">Contact</a></li>  
+            </ul>
+        </nav>
+        <!--Personal Information-->
+        <h1> William Deam</h1>
+        <h2>Personal Portfolio</h2>
+        <p>This site is about my work experience</p>
+        <p>My hobbies are <strong>weightlifting and video games</strong>.</p>
+        <blockquote>
+            My Work Experience, Education, and Research Interest
+        </blockquote>
+        <ol>
+            <li>Programming</li>
+            <li>Operating Systems</li>
+            <li>Hardware</li>
+        </ol>
+        <a href="https://ww.siu.edu"<www.siu.edu</a>
+        <a href="emailto:owner@pp.com"<owner@williamdeam21.github.io</a> </address>
+        <pre>
+My Address:
+William Deam
+Eldorado, IL
+62930    
+        </pre>    
+    </body>
+
+</html>
